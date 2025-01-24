@@ -1,0 +1,28 @@
+.heading{
+   
+    height: 600px;
+    width: 50%;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 80px;
+ font-weight: 100px;
+ color: rgb(145, 65, 139);
+ border: 20px ridge #000;
+ border-radius: 20px;
+}
+
+span{
+    color: rgb(71, 204, 50);
+} 
+
+.heading2{
+    
+    height: 600px;
+    width: 50%;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 80px;
+ font-weight: 100px;
+ color: rgb(145, 65, 139);
+ border: 20px ridge #000;
+ border-radius: 20px;
+
+}

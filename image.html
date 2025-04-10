@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>CHANGE IMAGES</h1>
+    <div class="divi" onmouseover="func1()"></div>
+    <button onmouseover="changePicture()">Change Image</button>
+    <img src="car5.png"alt="" id="person" width="300px" height="100px">
+    <script>
+        function changePicture(){
+            console.log("hello")
+            s=document.getElementById('person').src
+            console.log(s)
+            // document.getElementById('person').src='car5.png'
+            if (s=='file:///D:/CODER/Mern/tyre2.png'){
+            document.getElementById('person').src='car5.png'
+            }
+            else{
+                document.getElementById('person').src='tyre2.png'
+                
+            }
+        }
+    </script>
+
+    
+</body>
+</html>

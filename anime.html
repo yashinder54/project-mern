@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .main {
+        
+            background-image:url('road.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+            height:100%;
+            
+
+        }
+        .img1 {
+            /* margin-top: 100px; */
+            width: 700px;
+            height: 400px;
+            position: absolute;
+            top: 300px;
+        }
+
+        .car1{
+            width: 100%;
+            /* mix-blend-mode: soft-light; */
+            
+        }
+
+        .righttyr{
+            width: 80px;
+            position: absolute;
+            margin: 252px 0px 0px -295px;
+
+        }
+
+        .righttyr{
+           
+            
+            animation: spin;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            
+            animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+
+            0%{
+                -webkit-transform: rotate(0deg);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+            }
+            
+        }
+
+
+        .righttyr2{
+            width: 80px;
+            position: absolute;
+            margin: 252px 0px 0px -615px;
+            /* mix-blend-mode: color-burn; */
+
+        }
+
+        .righttyr2{
+           
+            
+            animation: spin;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            
+            animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+
+            0%{
+                -webkit-transform: rotate(0deg);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+            }
+            
+        }
+
+        @keyframes moves {
+            0%{
+                left:-100%;
+            }
+
+            100%{
+                left: 100%;
+            }
+
+        }
+
+        .img1 {
+            position: relative;
+            animation:move 5000ms infinite, moves 8s infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+
+        
+
+        
+    </style>
+
+
+</head>
+<body>
+
+    <div class="main">
+    <div class="img1">
+        <img class="car1" src="car5.png" alt="">
+
+            <img class="righttyr" src="tyre2.png" alt="">
+
+            
+
+            <img class="righttyr2" src="tyre2.png" alt="">
+       
+
+       
+    </div>
+</div>
+</body>
+</html>
